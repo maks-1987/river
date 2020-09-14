@@ -72,6 +72,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* =================================================== */
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+
 /* <GENERAL BLOCK>  */
 body {
   font-family: "Roboto", sans-serif;
@@ -277,4 +283,70 @@ body {
   padding-top: 28px;
 }
 
+/* ========== planning =========== */
+.planning {
+  margin-top: 115px;
+}
+.planning .container .planning-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #4E2F2D;
+}
+.planning .container .planning-buttons {
+  margin-top: 40px;
+}
+.planning .container .planning-buttons ul {
+  display: ms-flexbox;
+  display: flex;
+}
+.planning .container .planning-buttons__item {
+  padding: 12px 36px;
+  color: #BA946F;
+  border: 2px solid #BA946F;
+  margin-right: 16px;
+  transition: 0.5s ease;
+}
+.planning .container .planning-buttons__item:last-child {
+  margin-right: 0;
+}
+.planning .container .planning-buttons__item:hover {
+  background-color: #BA946F;
+  color: #ffffff;
+}
+.planning .container .planning-buttons .active {
+  background-color: #BA946F;
+  color: #ffffff;
+}
+.planning .container .planning-scheme {
+  margin-top: 56px;
+}
+/* ========== interior =========== */
+.interior .container {
+  margin-top: 115px;
+}
+.interior .container .interior-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #4E2F2D;
+}
+.interior .container .interior-slider::before {
+  content: url("/img/interior/left.svg");
+}
+.interior .container .interior-slider {
+  margin-top: 56px;
+}
+.interior .container .interior-slider::after {
+  content: url("/img/interior/right.svg");
+}
+
+/* ========= about ========= */
+.about {
+  margin-top: 80px;
+}
+/* ========= progres ======== */
+.progres {
+  margin-top: 110px;
+}
 /* </GENERAL BLOCK> */
