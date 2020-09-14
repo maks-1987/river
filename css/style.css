@@ -291,7 +291,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
-  color: #4E2F2D;
+  color: #4e2f2d;
 }
 .planning .container .planning-buttons {
   margin-top: 40px;
@@ -302,8 +302,8 @@ body {
 }
 .planning .container .planning-buttons__item {
   padding: 12px 36px;
-  color: #BA946F;
-  border: 2px solid #BA946F;
+  color: #ba946f;
+  border: 2px solid #ba946f;
   margin-right: 16px;
   transition: 0.5s ease;
 }
@@ -311,11 +311,11 @@ body {
   margin-right: 0;
 }
 .planning .container .planning-buttons__item:hover {
-  background-color: #BA946F;
+  background-color: #ba946f;
   color: #ffffff;
 }
 .planning .container .planning-buttons .active {
-  background-color: #BA946F;
+  background-color: #ba946f;
   color: #ffffff;
 }
 .planning .container .planning-scheme {
@@ -324,27 +324,72 @@ body {
 /* ========== interior =========== */
 .interior .container {
   margin-top: 115px;
+  position: relative;
 }
 .interior .container .interior-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 43px;
-  color: #4E2F2D;
+  color: #4e2f2d;
 }
 .interior .container .interior-slider::before {
   content: url("/img/interior/left.svg");
+  position: absolute;
+  top: 55%;
+  left: -57px;
+  background-color: #f4e9db;
+  padding: 16px 20px;
 }
 .interior .container .interior-slider {
   margin-top: 56px;
 }
+.interior .container .interior-slider .interior-slider__item {
+  margin: 0 auto;
+  text-align: center;
+}
 .interior .container .interior-slider::after {
   content: url("/img/interior/right.svg");
+  position: absolute;
+  top: 55%;
+  right: -57px;
+  background-color: #f4e9db;
+  padding: 16px 20px;
 }
 
 /* ========= about ========= */
 .about {
   margin-top: 80px;
+  background-color: #f4e9db;
+  padding: 115px 0 80px;
 }
+.about .container .about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #4e2f2d;
+}
+.about .container .about-subtitle {
+  margin-top: 56px;
+  display: ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+.about .container .about-subtitle__column {
+  flex-basis: 50%;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e2f2d;
+}
+.about .container .about-subtitle__column.col-left {
+  padding-right: 15px;
+}
+.about .container .about-subtitle__column.col-right {
+  padding-left: 15px;
+}
+.about .container .about-button {
+  color: #f4e9db;
+}
+
 /* ========= progres ======== */
 .progres {
   margin-top: 110px;
