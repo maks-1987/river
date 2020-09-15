@@ -394,4 +394,59 @@ body {
 .progres {
   margin-top: 110px;
 }
+.progres .container .progres-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  color: #4e2f2d;
+}
+.progres .container .progres-content {
+  display: ms-flexbox;
+  display: flex;
+  margin-top: 56px;
+}
+.progres .container .progres-content__video {
+  margin-right: 20px;
+}
+.progres .container .progres-content__about {
+  display: ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #BA946F;
+  padding: 55px 30px;
+}
+.progres .container .progres-content__about-item {
+  flex-basis: 25%;
+  padding-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ba946f;
+}
+.progres .container .progres-content__about-item .about-item__icon {
+  border: 4px solid #ba946f;
+  border-radius: 50%;
+  padding: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-right: 20px;
+}
+.progres .container .progres-content__about-item .about-item__text {
+  color: #4E2F2D;
+}
+.progres .container .progres-slider {
+  margin-top: 56px;
+}
+.map {
+  margin-top: 80px;
+}
+
+.feedback {
+  margin-top: 80px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
 /* </GENERAL BLOCK> */
