@@ -333,7 +333,7 @@ body {
   color: #4e2f2d;
 }
 .interior .container .interior-slider::before {
-  content: url("/img/interior/left.svg");
+  content: url("../img/interior/left.svg");
   position: absolute;
   top: 55%;
   left: -57px;
@@ -348,7 +348,7 @@ body {
   text-align: center;
 }
 .interior .container .interior-slider::after {
-  content: url("/img/interior/right.svg");
+  content: url("../img/interior/right.svg");
   position: absolute;
   top: 55%;
   right: -57px;
